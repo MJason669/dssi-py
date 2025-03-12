@@ -1,4 +1,3 @@
-pip install streamlit pandas scikit-learn
 # app.py
 import streamlit as st
 from sklearn.datasets import load_diabetes
