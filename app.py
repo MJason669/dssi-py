@@ -36,4 +36,3 @@ if st.button("Predict"):
     input_data = [[age, sex, bmi, blood_pressure, s1, s2, s3, s4, s5, s6]]
     prediction = model.predict(input_data)
     st.success(f"Predicted Diabetes Progression: {prediction[0]:.2f}")
-streamlit run app.py
